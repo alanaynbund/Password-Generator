@@ -46,7 +46,7 @@ function generatePassword() {
   
   var passNum = confirm ("Would you like numbers?")
     if (passNum) {
-      pas = pass + numbers;
+      pass = pass + numbers;
     }
 
   var password = "";
